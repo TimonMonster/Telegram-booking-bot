@@ -14,7 +14,7 @@ using System.Text.Json;
 using File = System.IO.File;
 using System.Text.Encodings.Web;
 
-var botClient = new TelegramBotClient("5934630690:AAFukEcJU0IO-d5bXxoUEAYG9o7wmf-f3hI");
+var botClient = new TelegramBotClient("Ваш ключ Bot API");
 
 
 
@@ -28,7 +28,7 @@ ReceiverOptions receiverOptions = new()
 };
 
 
-var myDatabase = new MyDatabase("localhost", 5432, "postgres", "postgres", "Ufufney300372");
+var myDatabase = new MyDatabase("Данные вашей бд");
 
 string selectedcity = null;
 string selectedcountry = null;
