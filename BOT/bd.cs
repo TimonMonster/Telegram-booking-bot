@@ -46,7 +46,7 @@ namespace BD
 
         static void Main(string[] args)
         {
-            var myDatabase = new MyDatabase("localhost", 5432, "postgres", "postgres", "Ufufney300372");
+            var myDatabase = new MyDatabase("Данные вашей бд");
 
         }
     }
